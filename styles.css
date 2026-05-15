@@ -380,6 +380,50 @@ body.is-started .scene {
   transform: rotate(172deg);
 }
 
+.rose-trail,
+.rose-spray {
+  position: absolute;
+  z-index: 2;
+  pointer-events: none;
+  background: url("assets/images/rose-corner.svg") center / contain no-repeat;
+  opacity: 0.34;
+  filter: drop-shadow(0 0.55rem 0.95rem rgba(94, 80, 72, 0.07));
+}
+
+.rose-trail {
+  width: 13rem;
+  height: 9rem;
+}
+
+.rose-trail--right {
+  top: 35%;
+  right: -6.8rem;
+  transform: rotate(86deg);
+}
+
+.rose-trail--left {
+  bottom: 32%;
+  left: -6.8rem;
+  transform: rotate(-94deg) scaleX(-1);
+}
+
+.rose-spray {
+  right: 50%;
+  width: 15rem;
+  height: 8rem;
+  transform: translateX(50%);
+  opacity: 0.24;
+}
+
+.rose-spray--top {
+  top: 4.2rem;
+}
+
+.rose-spray--bottom {
+  bottom: 4.1rem;
+  transform: translateX(50%) rotate(180deg);
+}
+
 .stage {
   position: absolute;
   inset: 5rem clamp(1.35rem, 6vw, 2.35rem) 3.55rem;
@@ -1132,6 +1176,18 @@ body.is-started .scene {
     height: 8rem;
     opacity: 0.42;
   }
+
+  .rose-trail {
+    width: 9.5rem;
+    height: 6.5rem;
+    opacity: 0.24;
+  }
+
+  .rose-spray {
+    width: 10rem;
+    height: 5.6rem;
+    opacity: 0.18;
+  }
 }
 
 @media (max-width: 23rem) {
@@ -1276,6 +1332,26 @@ body.is-started .scene {
     width: 11rem;
     height: 7.4rem;
     opacity: 0.4;
+  }
+
+  .rose-trail {
+    width: 8.5rem;
+    height: 5.8rem;
+    opacity: 0.22;
+  }
+
+  .rose-trail--right {
+    right: -5.8rem;
+  }
+
+  .rose-trail--left {
+    left: -5.8rem;
+  }
+
+  .rose-spray {
+    width: 8.8rem;
+    height: 5rem;
+    opacity: 0.16;
   }
 
   .rose-corner--top {
