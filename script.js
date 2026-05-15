@@ -30,6 +30,7 @@ function updateCountdown() {
 
 function createInvitationStages() {
   const stages = Array.from(document.querySelectorAll(".stage"));
+  const progressDots = Array.from(document.querySelectorAll(".stage-progress span"));
   let currentStage = 0;
   let hasStarted = false;
 
@@ -37,6 +38,9 @@ function createInvitationStages() {
     stages.forEach((stage, stageIndex) => {
       stage.classList.toggle("is-active", stageIndex === index);
       stage.classList.remove("is-leaving");
+    });
+    progressDots.forEach((dot, dotIndex) => {
+      dot.classList.toggle("is-active", dotIndex === index);
     });
   }
 
