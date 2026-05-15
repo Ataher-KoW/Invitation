@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" role="img" aria-label="عدم اصطحاب الأطفال">
+  <defs>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#D8BF85"/>
+      <stop offset="0.48" stop-color="#C8A96A"/>
+      <stop offset="1" stop-color="#A88448"/>
+    </linearGradient>
+    <linearGradient id="sage" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#C0C8B5"/>
+      <stop offset="1" stop-color="#E6CCC1"/>
+    </linearGradient>
+  </defs>
+  <circle cx="210" cy="210" r="190" fill="#FAF7F1"/>
+  <circle cx="210" cy="210" r="166" fill="none" stroke="url(#ring)" stroke-width="22"/>
+  <g fill="#5E5048">
+    <circle cx="160" cy="142" r="34"/>
+    <path d="M126 196c0-24 15-42 34-42s34 18 34 42v96c0 12-9 21-21 21h-26c-12 0-21-9-21-21v-96Z"/>
+    <circle cx="262" cy="150" r="30"/>
+    <path d="M230 204c0-23 14-40 32-40s32 17 32 40v88c0 12-9 21-21 21h-22c-12 0-21-9-21-21v-88Z"/>
+    <path d="M221 166c-22 12-42 12-62 0 6-16 16-26 31-26s25 10 31 26Z"/>
+    <path d="M296 174c-19 11-37 11-55 0 5-15 14-24 27-24s23 9 28 24Z"/>
+  </g>
+  <path d="M99 98 322 321" stroke="url(#sage)" stroke-width="34" stroke-linecap="round"/>
+  <path d="M99 98 322 321" stroke="url(#ring)" stroke-width="13" stroke-linecap="round"/>
+</svg>

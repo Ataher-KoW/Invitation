@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 360" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <radialGradient id="roseA" cx="45%" cy="42%" r="60%">
+      <stop offset="0" stop-color="#FAF7F1"/>
+      <stop offset="0.46" stop-color="#F0DCD4"/>
+      <stop offset="1" stop-color="#C5B9D2"/>
+    </radialGradient>
+    <radialGradient id="roseB" cx="42%" cy="40%" r="62%">
+      <stop offset="0" stop-color="#FAF7F1"/>
+      <stop offset="0.5" stop-color="#E6CCC1"/>
+      <stop offset="1" stop-color="#D8CFE3"/>
+    </radialGradient>
+  </defs>
+  <g opacity="0.92">
+    <path d="M64 274 C140 210 215 204 286 246 C352 285 419 282 486 230" fill="none" stroke="#A8B19D" stroke-width="8" stroke-linecap="round"/>
+    <path d="M98 248 C102 202 130 175 176 168 C152 205 132 232 98 248Z" fill="#A8B19D"/>
+    <path d="M220 238 C236 198 272 181 316 194 C282 218 258 238 220 238Z" fill="#C0C8B5"/>
+    <path d="M365 258 C388 222 426 214 466 235 C428 251 402 266 365 258Z" fill="#A8B19D"/>
+    <g transform="translate(42 132)">
+      <circle cx="72" cy="72" r="54" fill="url(#roseA)"/>
+      <path d="M72 22 C104 38 113 74 91 101 C62 111 31 91 27 59 C37 33 53 24 72 22Z" fill="none" stroke="#E6CCC1" stroke-width="7"/>
+      <path d="M47 76 C62 48 95 53 96 82 C82 101 57 101 47 76Z" fill="none" stroke="#C5B9D2" stroke-width="6"/>
+    </g>
+    <g transform="translate(160 76) scale(0.86)">
+      <circle cx="72" cy="72" r="54" fill="url(#roseB)"/>
+      <path d="M72 22 C104 38 113 74 91 101 C62 111 31 91 27 59 C37 33 53 24 72 22Z" fill="none" stroke="#D8CFE3" stroke-width="7"/>
+      <path d="M47 76 C62 48 95 53 96 82 C82 101 57 101 47 76Z" fill="none" stroke="#E6CCC1" stroke-width="6"/>
+    </g>
+    <g transform="translate(305 126) scale(0.78)">
+      <circle cx="72" cy="72" r="54" fill="url(#roseA)"/>
+      <path d="M72 22 C104 38 113 74 91 101 C62 111 31 91 27 59 C37 33 53 24 72 22Z" fill="none" stroke="#E6CCC1" stroke-width="7"/>
+      <path d="M47 76 C62 48 95 53 96 82 C82 101 57 101 47 76Z" fill="none" stroke="#C5B9D2" stroke-width="6"/>
+    </g>
+  </g>
+</svg>

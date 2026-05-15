@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" role="img" aria-label="عدم التصوير">
+  <defs>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#D8BF85"/>
+      <stop offset="0.48" stop-color="#C8A96A"/>
+      <stop offset="1" stop-color="#A88448"/>
+    </linearGradient>
+    <linearGradient id="blush" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F0DCD4"/>
+      <stop offset="1" stop-color="#C5B9D2"/>
+    </linearGradient>
+  </defs>
+  <circle cx="210" cy="210" r="190" fill="#FAF7F1"/>
+  <circle cx="210" cy="210" r="166" fill="none" stroke="url(#ring)" stroke-width="22"/>
+  <path d="M126 162h48l18-28h56l20 28h28c30 0 50 20 50 49v72c0 30-20 50-50 50H126c-30 0-50-20-50-50v-72c0-29 20-49 50-49Z" fill="#5E5048"/>
+  <circle cx="211" cy="247" r="54" fill="#FAF7F1"/>
+  <circle cx="211" cy="247" r="33" fill="#5E5048"/>
+  <circle cx="306" cy="196" r="15" fill="#FAF7F1"/>
+  <path d="M101 96 324 319" stroke="url(#blush)" stroke-width="34" stroke-linecap="round"/>
+  <path d="M101 96 324 319" stroke="url(#ring)" stroke-width="13" stroke-linecap="round"/>
+</svg>

@@ -12,6 +12,8 @@ The invitation starts with a clickable envelope. After the visitor opens it, the
 - `assets/images/za-final-logo.png` contains the final Z&A logo image.
 - `assets/images/luxury-garden-bg.svg` contains the garden-style background.
 - `assets/images/paper-texture.svg` contains the invitation paper texture.
+- `assets/images/rose-corner.svg` contains the soft rose decorations.
+- `assets/images/no-camera-soft.svg` and `assets/images/no-kids-soft.svg` contain the warning artwork.
 - `snaptik_7615383836368571656_v3.mp3` is used as the background music.
 
 ## 1. Edit the Family Name
