@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="دعوة زفاف زبيدة وعبدالله" />
+    <title>دعوة زفاف زبيدة وعبدالله</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <button class="start-screen" type="button" aria-label="فتح الدعوة">
+      <span class="start-screen__glow" aria-hidden="true"></span>
+      <span class="start-envelope" aria-hidden="true">
+        <span class="start-envelope__back"></span>
+        <span class="start-envelope__letter">دعوة زفاف</span>
+        <span class="start-envelope__front"></span>
+        <span class="start-envelope__flap"></span>
+        <span class="start-envelope__seal"></span>
+      </span>
+      <span class="start-screen__text">اضغطوا لفتح الدعوة</span>
+    </button>
+
+    <button
+      class="music-toggle"
+      type="button"
+      aria-label="تشغيل الموسيقى"
+      aria-pressed="false"
+    >
+      <span class="music-toggle__icon" aria-hidden="true"></span>
+      <span class="music-toggle__text">الموسيقى</span>
+    </button>
+
+    <main class="scene" aria-label="دعوة الزفاف">
+      <article class="invitation" aria-live="polite">
+        <div class="invitation__glow" aria-hidden="true"></div>
+        <div class="palette-ribbon" aria-hidden="true">
+          <span></span><span></span><span></span><span></span>
+        </div>
+        <div class="corner corner--top-right" aria-hidden="true"></div>
+        <div class="corner corner--top-left" aria-hidden="true"></div>
+        <div class="corner corner--bottom-right" aria-hidden="true"></div>
+        <div class="corner corner--bottom-left" aria-hidden="true"></div>
+        <div class="garden garden--right" aria-hidden="true">
+          <span></span><span></span><span></span><span></span>
+        </div>
+        <div class="garden garden--left" aria-hidden="true">
+          <span></span><span></span><span></span><span></span>
+        </div>
+
+        <section class="stage" data-duration="2800">
+          <p class="eyebrow">دعوة زفاف</p>
+          <p class="bismillah">بسم الله الرحمن الرحيم</p>
+          <p class="family-name">عائلة د. عبدالسلام صالح</p>
+          <p class="stage-line">تتشرف بدعوتكم لمشاركتها فرحة العمر</p>
+        </section>
+
+        <section class="stage" data-duration="3300">
+          <p class="stage-line">بكل الحب والسرور</p>
+          <p class="stage-line">نتشرف بحضوركم حفل زفاف كريمتهم</p>
+          <p class="bride-name">زبيدة عبدالسلام الطاهر صالح</p>
+        </section>
+
+        <section class="stage" data-duration="3100">
+          <p class="couple-names" dir="ltr">Dr. Zobida | Abdullah</p>
+          <p class="stage-line">وذلك بمشيئة الله تعالى</p>
+          <p class="stage-line">حضوركم يزيد فرحتنا ويكمل سعادتنا</p>
+        </section>
+
+        <section class="stage" data-duration="3500">
+          <p class="eyebrow">تفاصيل الحفل</p>
+          <div class="event-details">
+            <div>
+              <span>اليوم</span>
+              <strong>الجمعة</strong>
+            </div>
+            <div>
+              <span>التاريخ</span>
+              <strong>9 أكتوبر</strong>
+            </div>
+            <div>
+              <span>الوقت</span>
+              <strong>8:00 مساءً</strong>
+            </div>
+          </div>
+          <div class="countdown" aria-label="العد التنازلي">
+            <div>
+              <strong id="days">00</strong>
+              <span>أيام</span>
+            </div>
+            <div>
+              <strong id="hours">00</strong>
+              <span>ساعات</span>
+            </div>
+            <div>
+              <strong id="minutes">00</strong>
+              <span>دقائق</span>
+            </div>
+            <div>
+              <strong id="seconds">00</strong>
+              <span>ثواني</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="stage" data-duration="3000">
+          <p class="warning-icon" aria-hidden="true">⚠️</p>
+          <p class="warning-text">لطفاً عدم التصوير واصطحاب الأطفال</p>
+          <p class="stage-line">شاكرين تفهمكم وذوقكم</p>
+        </section>
+
+        <section class="stage stage--final" data-duration="999999">
+          <img
+            class="za-logo"
+            src="assets/images/za-final-logo.png"
+            alt="شعار الزفاف"
+          />
+          <p class="final-venue">قاعة كونكورد - السراج</p>
+          <a
+            class="map-button"
+            href="https://maps.app.goo.gl/2x57w6zQ6cUisXuz7?g_st=ac"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            عرض الموقع على الخريطة
+          </a>
+        </section>
+      </article>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
