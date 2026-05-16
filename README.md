@@ -9,8 +9,9 @@ The invitation starts with a clickable envelope. After the visitor opens it, the
 - `index.html` contains the invitation text and stage order.
 - `styles.css` contains the visual design, colors, and animations.
 - `script.js` contains the countdown date, stage timing, and music setup.
-- `assets/images/ag-logo.png` contains the second logo used on the final screen.
-- `assets/images/za-final-logo.png` contains the first logo used on the envelope and details screen.
+- `assets/images/ag-logo.png` contains the original second logo artwork.
+- `assets/images/ag-logo-transparent.png` contains the cleaned second logo used on the opening envelope and final screen.
+- `assets/images/za-final-logo.png` contains the first logo used on the invitation details screen.
 - `assets/images/luxury-garden-bg.svg` contains the garden-style background.
 - `assets/images/paper-texture.svg` contains the invitation paper texture.
 - `assets/images/rose-corner.svg` contains the soft rose decorations.
